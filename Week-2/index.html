@@ -3,87 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter App - Learn JavaScript</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <!-- Main Counter Section -->
-        <div class="counter-container">
-            <h1>Counter App</h1>
-            <p class="subtitle">Learn Variables, Data Types, Numbers & Strings</p>
-            
-            <!-- Counter Display -->
-            <div class="counter-display">
-                <p id="counter">0</p>
-                <p id="counter-word" class="counter-word"></p>
-            </div>
-            
-            <!-- Control Buttons -->
-            <div class="button-group">
-                <button id="decrease" class="btn">− Decrease</button>
-                <button id="reset" class="btn">Reset</button>
-                <button id="increase" class="btn">+ Increase</button>
-            </div>
-            
-            <!-- Calculations Section -->
-            <div class="calculations">
-                <h3>Live Calculations</h3>
-                <div class="calc-grid">
-                    <div class="calc-item">
-                        <span class="calc-label">Count × 2:</span>
-                        <span id="calc-double" class="calc-value">0</span>
-                    </div>
-                    <div class="calc-item">
-                        <span class="calc-label">Count × 5:</span>
-                        <span id="calc-five" class="calc-value">0</span>
-                    </div>
-                    <div class="calc-item">
-                        <span class="calc-label">Count ÷ 2:</span>
-                        <span id="calc-half" class="calc-value">0</span>
-                    </div>
-                    <div class="calc-item">
-                        <span class="calc-label">Count²:</span>
-                        <span id="calc-square" class="calc-value">0</span>
-                    </div>
-                    <div class="calc-item">
-                        <span class="calc-label">Absolute:</span>
-                        <span id="calc-abs" class="calc-value">0</span>
-                    </div>
-                    <div class="calc-item">
-                        <span class="calc-label">Is Even?:</span>
-                        <span id="calc-even" class="calc-value">true</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- String Operations -->
-            <div class="string-section">
-                <h3>String Operations</h3>
-                <div class="string-item">
-                    <span class="string-label">Concatenation:</span>
-                    <span id="string-concat" class="string-value">"Count is: " + 0</span>
-                </div>
-                <div class="string-item">
-                    <span class="string-label">Template Literal:</span>
-                    <span id="string-template" class="string-value">`The count is ${0}`</span>
-                </div>
-                <div class="string-item">
-                    <span class="string-label">Number as String:</span>
-                    <span id="string-convert" class="string-value">"0"</span>
-                </div>
-                <div class="string-item">
-                    <span class="string-label">String Length:</span>
-                    <span id="string-length" class="string-value">1</span>
-                </div>
-            </div>
-            
-            <p style="margin-top: 20px; font-size: 0.9em;">
-                Open the browser console (Press F12) to see more JavaScript examples!
-            </p>
-        </div>
+        <h1>🛒 Shopping Calculator</h1>
+        <p>Click the button below to start your shopping calculation!</p>
+        
+        <button onclick="calculateTotal()">Start Calculator</button>
+        
+        <div id="result"></div>
     </div>
-    
-    <script src="app.js"></script>
 </body>
 </html>
