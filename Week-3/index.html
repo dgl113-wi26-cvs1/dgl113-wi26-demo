@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dynamic Banner created by JavaScript -->
+    <div id="banner"></div>
+    
+    <h1>JavaScript Functions Demo</h1>
+    
+    <!-- Demo 1: Simple Function -->
+    <div class="demo-section">
+        <h2>1. Simple Function</h2>
+        <p class="code-comment">A basic function that displays a greeting</p>
+        <button onclick="greetStudent()">Click to Greet</button>
+        <div id="greeting-output" class="output"></div>
+    </div>
+    
+    <!-- Demo 2: Function with Parameters -->
+    <div class="demo-section">
+        <h2>2. Function with Parameters</h2>
+        <p class="code-comment">Function that takes input and returns a personalized message</p>
+        <input type="text" id="name-input" placeholder="Enter your name">
+        <button onclick="personalGreeting()">Personalize Greeting</button>
+        <div id="personal-output" class="output"></div>
+    </div>
+    
+    <!-- Demo 3: Function with Return Value -->
+    <div class="demo-section">
+        <h2>3. Function with Return Value</h2>
+        <p class="code-comment">Function that calculates and returns the sum of two numbers</p>
+        <input type="number" id="num1" placeholder="First number">
+        <input type="number" id="num2" placeholder="Second number">
+        <button onclick="calculateSum()">Calculate Sum</button>
+        <div id="sum-output" class="output"></div>
+    </div>
+    
+    <!-- Demo 4: Built-in Functions -->
+    <div class="demo-section">
+        <h2>4. Built-in Functions</h2>
+        <p class="code-comment">Using JavaScript's built-in functions like Math.random() and Math.floor()</p>
+        <button onclick="generateRandomNumber()">Generate Random Number (1-100)</button>
+        <div id="random-output" class="output"></div>
+    </div>
+    
+    <!-- Demo 5: String Built-in Functions -->
+    <div class="demo-section">
+        <h2>5. String Built-in Functions</h2>
+        <p class="code-comment">Using built-in string functions: toUpperCase(), toLowerCase(), length</p>
+        <input type="text" id="text-input" placeholder="Enter some text">
+        <button onclick="transformText()">Transform Text</button>
+        <div id="text-output" class="output"></div>
+    </div>
+    
+    <!-- Demo 6: Prompt-based Functions -->
+    <div class="demo-section">
+        <h2>6. Prompt-based Functions</h2>
+        <p class="code-comment">Using prompt() built-in function to get user input</p>
+        <button onclick="calculateAge()">Calculate Age</button>
+        <button onclick="gradeCalculator()">Calculate Grade</button>
+        <button onclick="temperatureConverter()">Convert Temperature</button>
+        <div id="prompt-output" class="output"></div>
+    </div>
+    
+    <!-- Demo 7: Banner Control Functions -->
+    <div class="demo-section">
+        <h2>7. Banner Control Functions</h2>
+        <p class="code-comment">Functions to dynamically update the banner content and style</p>
+        <button onclick="changeBannerMessage()">Change Banner Message</button>
+        <button onclick="changeBannerColor()">Change Banner Color</button>
+        <button onclick="resetBanner()">Reset Banner</button>
+    </div>
+
+</body>
+</html>
